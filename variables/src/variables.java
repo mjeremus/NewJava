@@ -7,19 +7,11 @@ class variables {
         double height = 179.5;
 
         System.out.print("Cześć ");
-        System.out.print(firstName);
-        System.out.print(" ");
-        System.out.println(lastName);
+        System.out.println(firstName + " " + lastName);
 
         System.out.println("Poniżej jest kilka informacji o Tobie:");
-        System.out.print("Twój PESEL to: ");
-        System.out.println(pesel);
-        System.out.print("Masz ");
-        System.out.print(age);
-        System.out.println(" lat");
-
-        System.out.print("Twój wzrost to: ");
-        System.out.print(height);
-        System.out.print("cm");
+        System.out.println("Twój PESEL to: " + pesel);
+        System.out.println("Masz " + age + " lat");
+        System.out.print("Twój wzrost to: " + height + "cm");
     }
 }
