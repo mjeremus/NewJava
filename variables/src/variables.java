@@ -17,5 +17,6 @@ class variables {
 
         firstName = "Gałgan";
         System.out.println(firstName);
+
     }
 }
